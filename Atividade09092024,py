@@ -1,0 +1,27 @@
+#matriz
+'''
+carros=[
+['Modelo', 'Palio'],
+['Fabricante', 'Fiat'], 
+['Ano', '2016']
+
+]
+for l, c in carros:
+
+    print('Linha:'+l+  '|coluna:'+c+ '\n')
+    pushed = "prata"
+    print('Linha:'+pushed+ '|coluna:' '\n')
+    '''
+    
+turma =[
+      [5.0,4.5,7.0,5.2,6.1],
+      [5.0,4.5,7.0,5.2,6.1],
+      [5.0,4.5,7.0,5.2,6.1]
+    ]   
+media=0
+for i in range(3):
+ for j in range(5):
+  media=media+turma[i][j]
+ media=media/15
+ print(media)
+       
